@@ -10,7 +10,7 @@
     <!-- meta responsive -->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <title>Tư Vấn Du Học Đại Hải</title>
+    <title>Thang Pham Profile</title>
     <meta name="description" content="Dai Hai Education" />
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en"
@@ -29,16 +29,20 @@
     <link href="/styles/font-awesome.min.css" rel="stylesheet">
     <!-- import material datetime picker-->
     <link href="/styles/material-datetime-picker.css" rel="stylesheet">
+
+    <!-- import bootstrap-->
+    <link href="/styles/bootstrap.css" rel="stylesheet">
+
     <!-- import main.css -->
     <link href="/styles/main.css" rel="stylesheet">
 
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript">
-        var gmap = new google.maps.LatLng(10.8500742, 106.5888267);
+        var gmap = new google.maps.LatLng(10.9027043, 106.6313823);
         var marker;
         function initialize() {
             var mapProp = {
-                center: new google.maps.LatLng(10.8500742, 106.5888267),
+                center: new google.maps.LatLng(10.9027043, 106.6313823),
                 zoom: 16,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
@@ -123,33 +127,46 @@
                 <div class="background">
                     <img src="../images/mobile5.jpg">
                 </div>
-                <a href="#!user"><img class="circle" src="../images/user.png"></a>
+                <a href="#!user"><img class="circle" src="../images/pic_iam.jpg"></a>
                 <a href="#!name"><span class="name white-text">Pham Ngoc Thang</span></a>
-                <a href="#!email"><span class="email white-text">pnthang@tma.com.vn</span></a>
+                <a href="#!email"><span class="email white-text">thangpham.it92@gmail.com</span></a>
             </div>
         </li>
-        <li style="border-bottom: 1px solid #ddd"><a class="dropdown-button" href="#!">Thang Pham<i class="material-icons right">person</i></a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown-contact-mobile">Contact<i class="material-icons right">contact_mail arrow_drop_down</i></a></li>
+        <li style="border-bottom: 1px solid #ddd"><a id="about_me_link" class="dropdown-button" href="#">ABOUT ME</a></li>
+        <li style="border-bottom: 1px solid #ddd"><a id="resume_link" class="dropdown-button" href="#">RESUME</a></li>
+        <li style="border-bottom: 1px solid #ddd"><a id="contact_link" class="dropdown-button" href="#">CONTACT</a></li>
+        <!--<li><a class="dropdown-button" href="#!" data-activates="dropdown-contact-mobile">Contact<i class="material-icons right">contact_mail arrow_drop_down</i></a></li>-->
     </ul>
 
     <!-- menu drawer -->
-    <!-- <div class="navbar-fixed">
+     <div class="navbar-fixed" id="side_nav_mobile" style="display: none">
         <nav>
-            <div class="nav-wrapper indigo darken-1">
-                <a href="#!" class="brand-logo"><i class="material-icons md-48">person_pin</i>TƯ VẤN DU HỌC ĐẠI HẢI</a>
+            <div class="nav-wrapper cyan">
+                <!--<a href="#!" class="brand-logo"><i class="material-icons md-48">person_pin</i>THANG PHAM PROFILE</a>-->
                 <a href="#!" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
+                <!--<ul class="right hide-on-med-and-down">
                     <li style="border-right: 1px solid #fff"><a class="dropdown-button" href="#!">Thang Pham<i class="material-icons right">person</i></a></li>
                     <li><a class="dropdown-button" href="#!" data-activates="dropdown-contact">Contact<i class="material-icons right">contact_mail arrow_drop_down</i></a></li>
-                </ul>
+                </ul>-->
             </div>
         </nav>
-    </div> -->
+    </div> 
 
     <div class="fixed-action-btn">
-        <a class="btn-floating btn-large red pulse"><i class="large material-icons">mode_edit</i></a>
-        <ul><li><a class="btn-floating blue"><i class="material-icons">contact_phone</i></a></li></ul>
+        <a class="btn-floating btn-large red pulse"><i class="material-icons">menu</i></a>
+        <ul>
+            <li><a class="btn-floating blue" id="spnDiscovery"><i class="material-icons">contact_phone</i></a></li>
+            <li><a class="btn-floating green" id="spnTop"><i class="material-icons">publish</i></a></li>
+        </ul>
     </div>
+
+    <div class="tap-target" data-activates="spnDiscovery">
+    <div class="tap-target-content">
+      <h4>Hello, I am here</h4>
+      <p><h5>Phone: 0973.862.927</h5></p>
+      <p><h5>Email: thangpham.it92@gmail.com</h5></p>
+    </div>
+  </div>
 
     <!-- define content -->
     <main>
@@ -157,19 +174,19 @@
     </main>
 
     <!-- define footer -->
-    <footer class="page-footer">
+    <footer class="page-footer cyan">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12 white-text">
-                    © 2017 Website
-                    <h5>TƯ VẤN DU HỌC ĐẠI HẢI</h5>
+                    © 2017
+                    <h5>THANG PHAM PROFILE</h5>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h6 class="white-text">MẠNG XÃ HỘI</h6>
+                    <h6 class="white-text">SOCIAL</h6>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
                         <li><a class="grey-text text-lighten-3" href="#!">Gmail</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Github</a></li>
                         <li><a class="grey-text text-lighten-3" href="#!">Skype</a></li>
                     </ul>
                 </div>
@@ -184,6 +201,7 @@
 
     <!-- import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
     <!-- Angular Material requires Angular.js Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
@@ -201,6 +219,11 @@
 
     <!-- import jcarousel -->
     <script type="text/javascript" src="/scripts/jquery.jcarousellite.js"></script>
+
+    <!-- import chart -->
+    <!--<script type="text/javascript" src="/scripts/Chart.min.js"></script>
+    <script type="text/javascript" src="/scripts/morris.min.js"></script>-->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
 
     <script type="text/javascript" src="/scripts/materialize.min.js"></script>
     <script type="text/javascript" src="/scripts/main.js"></script>

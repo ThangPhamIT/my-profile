@@ -1,0 +1,473 @@
+<%- contentFor('body') %>
+    <div class="row">
+        <div class="parallax-container">
+            <div class="parallax" style="align-items: center; display: flex;">
+                <img src="/images/background3.png">
+                <div class="col s2 m2 l2"></div>
+                <div class="col s8 m8 l8 center-align" style="top:50%">
+                    <div class="center-align home-content" style="position: relative;">
+                        <h1 class="home-title">HI! I'm <span class="cyan-text">THANG PHAM</span></h1>
+                        <h2 class="home-subtitle">WEBSITE DEVELOPER</h2>
+                        <!--<a href="/contact" class="btn waves-effect waves-light">
+                                Hire Me <i class="material-icons left">send</i>
+                            </a>-->
+                    </div>
+                </div>
+                <div class="col s2 m2 l2"></div>
+            </div>
+        </div>
+    </div>
+    <!--________________________end header image_________________________-->
+
+    <div class="container" style="width: 90%" id="sidebar">
+        <div class="row" id="tabs_menu_link">
+            <div class="col s12 m12 l12">
+                <ul id="tabs-swipe-demo" class="tabs grey lighten-3">
+                    <li class="tab col s4"><a id="about_me_link" class="active" href="#" style="color:#00bcd4; font-size:18px;">ABOUT ME</a></li>
+                    <li class="tab col s4"><a id="resume_link" href="#" style="color:#00bcd4; font-size:18px;">RESUME</a></li>
+                    <li class="tab col s4"><a id="contact_link" href="#" style="color:#00bcd4; font-size:18px;">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--________________________end menu_________________________-->
+
+        <div class="parallax">
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="../images/pic_iam.jpg">
+                            <a class="btn-floating halfway-fab waves-effect waves-light red" id="spnDiscovery"><i class="material-icons">share</i></a>
+                        </div>
+                        <div class="card-content">
+                            <span class="about-subtitle"> Pham Ngoc Thang</span>
+                            <br>
+                            <i class="fa fa-tint" aria-hidden="true"></i><span class="about-info"> Software Enginner</span>
+                            <br/>
+                            <i class="fa fa-bookmark" aria-hidden="true"></i><span class="about-info"> Web Developer</span>
+                            <br>
+                            <i class="fa fa-building" aria-hidden="true"></i><span class="about-info"> TMA Solution</span>
+                            <br>
+                            <!--**************************personal information****************************-->
+                            <div class="personal_info_box">
+                                <p style="color: #fff"><i class="fa fa-check-circle-o m-right-xs"></i> Personal Information </p>
+                            </div>
+                            <p><i class="fa fa-phone"></i><span class="personal-info">  Phone: 0973.862.927</span></p>
+                            <p><i class="fa fa-envelope"></i><span class="personal-info">  Email: thangpham.it92@gmail.com</span></p>
+                            <p><i class="fa fa-map-marker"></i><span class="personal-info">  Address: 257/88/15 Dang Thuc Vinh Str, 12 Dist, HCM City</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!--________________________end general info_________________________-->
+
+                <div class="col s12 m9 l9">
+                    <div class="card hoverable">
+                        <div role="tabpanel" data-example-id="togglable-tabs" id="about_me">
+                            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                                        <span class="skill_tabs_box">About Me</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                                    <div class="x_content" style="display: block;">
+                                        <ul>
+                                            <li>
+                                                <h3><small>Hello, I'm a Web Developer. My passion for creating professional and user friendly Websites.</small></h3>
+                                            </li>
+                                            <li>
+                                                <h3><small>With over 2 years of experience working at TMA Solutions and participating in client projects, 
+                                                I have learned a lot about new techniques and software development process.</small></h3>
+                                            </li>
+                                        </ul>
+                                        <!--<ul style="border-bottom: 1px #73879C solid"></ul>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--________________________end about me_________________________-->
+
+                        <br>
+                        <div role="tabpanel" data-example-id="togglable-tabs" id="resume">
+                            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                                        <span class="skill_tabs_box">Work Experience</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">July-2016 - Present
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/pf1.jpg">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Web Developer/PHP<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">HRM Project</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item" style="background-image: url(../images/pf1.jpg);">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Web Developer/PHP<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">HRM Project</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Participating in creation and development new features based on the
+                                                        requirements of HR and user.</p>
+                                                    <p class="grey-text text-darken-3">- Provided technical support to other team members.</p>
+                                                    <p class="grey-text text-darken-3">- Improved the Website and enhance user experience. </p>
+                                                    <p class="grey-text text-darken-3">- Maintain and support the user. </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">March-2016 - July-2016
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/pf3.jpg">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Web Developer/AngularJS<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Meshwork Project</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item" style="background-image: url(../images/pf3.jpg);">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Web Developer/AngularJS<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Meshwork Project</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Backend developer.</p>
+                                                    <p class="grey-text text-darken-3">- Participating in creation and development new features based on the
+                                                        requirements of clients.</p>
+                                                    <p class="grey-text text-darken-3">- Participating in group meetings and find solutions for the tasks.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">August-2015 - March-2016
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/pf2.jpg">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Web Developer/.NET<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Training Tool</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item" style="background-image: url(../images/pf2.jpg);">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Web Developer/.NET<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Training Tool</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Web developer</p>
+                                                    <p class="grey-text text-darken-3">- Participating in creation and development new features.</p>
+                                                    <p class="grey-text text-darken-3">- Participating in group meetings to design UI and find solutions for
+                                                        the task.</p>
+                                                    <p class="grey-text text-darken-3">- Provide guidance to other team members.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">August-2015 - March-2016
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/pf3.jpg">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Web Developer/.NET<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">PA Tool</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item" style="background-image: url(../images/pf3.jpg);">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Web Developer/.NET<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">PA Tool</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Web developer</p>
+                                                    <p class="grey-text text-darken-3">- Participating in creation and development new features.</p>
+                                                    <p class="grey-text text-darken-3">- Fixing bugs.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">February-2015 - August-2015
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/pf1.jpg">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Android Developer<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Sharp</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item" style="background-image: url(../images/pf1.jpg);">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Android Developer<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Sharp</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Android developer</p>
+                                                    <p class="grey-text text-darken-3">- Participate in the creation and development of new features based on
+                                                        the requirements of clients.</p>
+                                                    <p class="grey-text text-darken-3">- Improved the UI/UX and enhance user experience.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--________________________end work experience_________________________-->
+
+                        <br>
+                        <div role="tabpanel" data-example-id="togglable-tabs">
+                            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                                        <span class="skill_tabs_box">Skills</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                                    <div class="x_panel">
+                                        <div class="x_content">
+                                            <div id="skillsChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--________________________end skills_________________________-->
+
+                        <br>
+                        <div role="tabpanel" data-example-id="togglable-tabs">
+                            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                                        <span class="skill_tabs_box">Languages</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                                    <div class="x_panel">
+                                        <div class="x_content">
+                                            <div id="languagesChart" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--________________________end languges_________________________-->
+
+                        <br>
+                        <div role="tabpanel" data-example-id="togglable-tabs">
+                            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                                        <span class="skill_tabs_box">Education & Courses</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">April-2017
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/grad-cap.png">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">NodeJS/Express Framework<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Course</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">NodeJS/Express<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Course</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Introduce about NodeJS.</p>
+                                                    <p class="grey-text text-darken-3">- Building website using Express framework.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">March-2017
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/grad-cap.png">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">AngularJS 2<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Course</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">AngularJS 2<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Course</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Introduce about AngularJS 2.</p>
+                                                    <p class="grey-text text-darken-3">- Building website using AngularJS 2.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">October-2016
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/grad-cap.png">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">OOP<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Course</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">OOP<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Course</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Object oriented design principles</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">September-2015
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/grad-cap.png">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Android Develop<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Course</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Android Develop<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Course</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- Building application: 'Beautiful Location'</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m4 l4">
+                                            <div class="card grey lighten-4">
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #727272 !important; font-size: 17px; margin-bottom: -10px;">2010-2014
+                                                </div>
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                    <img class="activator" src="images/grad-cap.png">
+                                                </div>
+                                                <div class="card-content">
+                                                    <span class="card-title activator grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Student<i class="material-icons right">more_vert</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Education</p>
+                                                </div>
+                                                <div class="card-reveal experience_bg_item">
+                                                    <span class="card-title grey-text text-darken-4" style="color: #00bcd4 !important; font-size: 18px">Student<i class="material-icons right">close</i></span>
+                                                    <p style="color: #727272;font-size: 15px">Education</p>
+                                                    <div style="height:2px; background-color: #727272;"></div>
+                                                    <br>
+                                                    <p class="grey-text text-darken-3">- University: HCM City University of Technical Education</p>
+                                                    <p class="grey-text text-darken-3">- Major: Software Technology</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--________________________end education & courses_________________________-->
+
+                        <br>
+                        <div role="tabpanel" data-example-id="togglable-tabs" id="contact">
+                            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">
+                                        <span class="skill_tabs_box">Contact</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+                                            <div class="card grey lighten-4">
+                                                <div id="googleMap" style="height: 320px;">Google Map</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 m12 l12">
+                                            <form action="/" method="POST">
+                                                <div class="card">
+                                                    <div class="input-field col s12 m12 l12">
+                                                        <i class="material-icons prefix">account_circle</i>
+                                                        <input class="validate" id="full_name" name="full_name" type="text">
+                                                        <label for="full_name">Full Name</label>
+                                                    </div>
+                                                    <div class="input-field col s12 m12 l12">
+                                                        <i class="material-icons prefix">email</i>
+                                                        <input id="email" name="email" type="email" class="validate">
+                                                        <label for="email" data-error="Invalid email">Email</label>
+                                                    </div>
+                                                    <div class="input-field col s12 m12 l12">
+                                                        <i class="material-icons prefix">mode_edit</i>
+                                                        <input class="validate" id="subject" name="subject" type="text">
+                                                        <label for="subject">Subject</label>
+                                                    </div>
+                                                    <div class="input-field col s12 m12 l12">
+                                                        <i class="material-icons prefix">mode_edit</i>
+                                                        <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                                                        <label for="message">Message</label>
+                                                    </div>
+                                                    <button class="btn waves-effect waves-light right" type="submit" name="action" style="margin:10px">
+                                                        SEND MESSAGE
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--________________________end contact_________________________-->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

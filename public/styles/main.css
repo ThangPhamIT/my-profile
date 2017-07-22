@@ -1,4 +1,14 @@
 
+@media all and (max-width: 480px) {
+  #side_nav_mobile {
+    display: block !important; /* This is how it looks on desktop */
+  }
+
+  #tabs_menu_link {
+      display: none !important;
+  }
+}
+
 
 /********************************** home page **********************************/
 .home-content {
@@ -20,9 +30,14 @@
     text-transform: uppercase;
 }
 
-/**************************about me***************************8*/
+/**************************about me****************************/
+.tabs .indicator {
+    background-color: #00bcd4;
+}
+
+/**************************about me****************************/
 .about-subtitle {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -35,16 +50,95 @@
     line-height: 28px;
 }
 
-
-
-
-
-.card-introdution-title {
-    color: rgba(0,0,0,.54) !important;
-    font-size: 1rem;
-    line-height: 18px;
-    overflow: hidden;
-    padding: 16px;
-    width: 90%;
+.personal-info {
+    color: #727272;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 28px;
 }
+
+/**************************skills****************************/
+.personal_info_box {
+    margin-top: 5%;
+    background: #00bcd4;
+    border: 1px solid #169F85;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+.skill_name {
+    color: #727272 !important;
+}
+.skill_progress_bar_height {
+    height: 15px !important;
+    color: #00bcd4;
+}
+
+.progress .determinate {
+    background-color: #00bcd4 !important;
+}
+
+.skill_tabs_box {
+    font-size: 16px;
+    color: #73879C;
+}
+
+ul.bar_tabs {
+    overflow: visible;
+    background: #F5F7FA;
+    height: 25px;
+    margin: 21px 0 14px;
+    padding-left: 14px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid #E6E9ED
+}
+ul.bar_tabs>li {
+    border: 1px solid #E6E9ED;
+    color: #333 !important;
+    margin-top: -17px;
+    margin-left: 8px;
+    background: #fff;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0
+}
+ul.bar_tabs>li.active {
+    border-right: 6px solid #D3D6DA;
+    border-top: 0;
+    margin-top: -15px
+}
+ul.bar_tabs>li a {
+    padding: 10px 17px;
+    background: #F5F7FA;
+    margin: 0;
+    border-top-right-radius: 0
+}
+ul.bar_tabs>li a:hover {
+    border: 1px solid transparent
+}
+ul.bar_tabs>li.active a {
+    border-bottom: none
+}
+ul.bar_tabs.right {
+    padding-right: 14px
+}
+ul.bar_tabs.right li {
+    float: right
+}
+
+/**************************work experience****************************/
+.experience_bg_item {
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
 
