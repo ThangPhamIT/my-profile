@@ -2,7 +2,7 @@ var nodemailer = require('nodemailer');
 var token      = require('../../authorization/XOAuth2');
 
 var transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: 'Gmail',
     secure: false,
     port: 25,
     auth: {
@@ -32,7 +32,7 @@ var homeController = {
             from: full_name + '<' + email + '>',
             to: 'thangpham.it92@gmail.com',
             subject: 'Email to Thang Pham',
-            html: 'Hello, <b>Thang Pham</b>' + 
+            html: 'Hello, <b>Thang Pham!</b>' + ' Has people contacted with you! :)' +
                 '<br>'+
                 'Full name: ' + full_name + 
                 '<br><b>Email: </b>' + email +

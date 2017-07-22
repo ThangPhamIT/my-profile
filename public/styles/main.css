@@ -7,10 +7,28 @@
   #tabs_menu_link {
       display: none !important;
   }
+
+  .home-title{
+    font-size: 28px !important;
+  }
 }
 
 
 /********************************** home page **********************************/
+
+.bg-carousel-item {
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+#home-introduce {
+    margin-top: 10%;
+}
+
 .home-content {
     color: #fff;
     align-items: center;

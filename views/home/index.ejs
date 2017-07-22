@@ -1,22 +1,29 @@
 <%- contentFor('body') %>
     <div class="row">
-        <div class="parallax-container">
-            <div class="parallax" style="align-items: center; display: flex;">
-                <img src="/images/background3.png">
-                <div class="col s2 m2 l2"></div>
-                <div class="col s8 m8 l8 center-align" style="top:50%">
-                    <div class="center-align home-content" style="position: relative;">
-                        <h1 class="home-title">HI! I'm <span class="cyan-text">THANG PHAM</span></h1>
-                        <h2 class="home-subtitle">WEBSITE DEVELOPER</h2>
-                        <!--<a href="/contact" class="btn waves-effect waves-light">
-                                Hire Me <i class="material-icons left">send</i>
-                            </a>-->
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="../images/background3.png">
+                    <!-- random image -->
+                    <div class="caption center-align" id="carousel-slider">
+                        <h1 class="home-title" style="color:#fff">HI! I'm <span class="cyan-text">THANG PHAM</span></h1>
+                        <h2 class="home-subtitle" style="color:#fff">WEBSITE DEVELOPER</h2>
+                        <a id="contact_link" href="#" class="waves-effect waves-light btn">CONTACT</a>
                     </div>
-                </div>
-                <div class="col s2 m2 l2"></div>
-            </div>
+                </li>
+                <li>
+                    <img src="../images/background2.png">
+                    <!-- random image -->
+                    <div class="caption center-align" id="carousel-slider">
+                        <h1 class="home-title" style="color:#fff">HI! I'm <span class="cyan-text">THANG PHAM</span></h1>
+                        <h2 class="home-subtitle" style="color:#fff">WEBSITE DEVELOPER</h2>
+                        <a id="contact_link" href="#" class="waves-effect waves-light btn">CONTACT</a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
+
     <!--________________________end header image_________________________-->
 
     <div class="container" style="width: 90%" id="sidebar">
