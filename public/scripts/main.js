@@ -161,10 +161,6 @@ $(document).ready(function () {
     });
   });
 
-  $('#tap-discovery').on('click', function () {
-    $('.tap-target').tapTarget('open');
-  });
-
   $('#spnDiscovery').on('click', function () {
     $('.tap-target').tapTarget('open');
   });
