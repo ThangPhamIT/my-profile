@@ -57,7 +57,7 @@ $(document).ready(function () {
     },
     series: [{
       name: 'Value',
-      data: [70, 65, 70, 80, 55, 75, 60]
+      data: [60, 65, 67, 70, 55, 75, 60]
 
     }]
   });
@@ -119,7 +119,7 @@ $(document).ready(function () {
     },
     series: [{
       name: 'Value',
-      data: [60, 70, 65, 50, 55, 80, 60, 30]
+      data: [65, 67, 70, 50, 55, 80, 60, 30]
 
     }]
   });
